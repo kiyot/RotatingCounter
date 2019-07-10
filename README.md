@@ -1,0 +1,1 @@
+# Rotaing Counter [![Build Status](https://app.bitrise.io/app/c0cedd694928dafb/status.svg?token=_0H2cCogaF8wifMani0seQ&branch=master)](https://app.bitrise.io/app/c0cedd694928dafb) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
