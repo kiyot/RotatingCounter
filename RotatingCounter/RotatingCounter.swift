@@ -22,7 +22,7 @@ open class RotatingCounter: UIView {
     }
 
     public func set(value: Int, animated: Bool) {
-        let oldValue = self.value
+        let oldValue = displayedValue
         self.value = value
 
         if animated {
@@ -48,6 +48,10 @@ open class RotatingCounter: UIView {
             _ = updateIntrinsicContentSize(contentSize(for: value))
             setNeedsDisplay()
         }
+    }
+
+    private var displayedValue: Int {
+        animation.count(at: Date()).count.reduce(0) { 10 * $0 + Int($1.integer) }
     }
 
     private(set) var value = 0
