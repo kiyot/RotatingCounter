@@ -14,7 +14,7 @@ public final class FixedPresenter: CountPresenter {
         } else {
             var digits = [UInt8]()
             var val = value
-            while 0 < value {
+            while 0 < val {
                 digits.append(UInt8(val % 10))
                 val /= 10
             }
