@@ -133,6 +133,7 @@
 				BB5EFE0422DB81E600778D66 /* Presets */,
 				BB5EFDFB22DB7C9400778D66 /* CountAnimation.swift */,
 				BB5EFDFD22DB7D8500778D66 /* CountAnimationAdapter.swift */,
+				BB3C410222D63EEB00ACAAA3 /* FixedPresenter.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -140,7 +141,6 @@
 		BB5EFE0422DB81E600778D66 /* Presets */ = {
 			isa = PBXGroup;
 			children = (
-				BB3C410222D63EEB00ACAAA3 /* FixedPresenter.swift */,
 				BB5EFDFF22DB7E5700778D66 /* SampleAnimationFactory.swift */,
 				BB3C410522D6422100ACAAA3 /* SampleAnimationPresenter.swift */,
 			);
