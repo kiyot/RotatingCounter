@@ -20,7 +20,7 @@ public final class SampleAnimationPresenter: CountPresenter {
         }
 
         let decreasing = to < from
-        animatedDigits = zip(fromDigits, toDigits).enumerated().reversed().map { i, digits in
+        animatedDigits = zip(fromDigits, toDigits).enumerated().reversed().map { _, digits in
             return { progress in
                 let (from, to) = digits
                 let p = 1 - pow(progress - 1, 2)

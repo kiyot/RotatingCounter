@@ -66,7 +66,7 @@ open class RotatingCounter: UIView {
     private var animation: CountAnimation = CountAnimationAdapter.fixed(0)
 }
 
-// MARK:- UIView overrides
+// MARK: - UIView overrides
 extension RotatingCounter {
     override open func draw(_ rect: CGRect) {
         super.draw(rect)
@@ -129,7 +129,7 @@ extension RotatingCounter {
     }
 }
 
-// MARK:- private methods
+// MARK: - private methods
 private extension RotatingCounter {
     func setup() {
         calculateCharacterSize()
