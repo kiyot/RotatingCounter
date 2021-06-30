@@ -8,7 +8,7 @@
 import Foundation
 
 public final class SampleAnimationPresenter: CountPresenter {
-    init(from: Int, to: Int) {
+    public init(from: Int, to: Int) {
         var f = from, t = to
         var fromDigits = [Int](), toDigits = [Int]()
         while 0 < f || 0 < t {

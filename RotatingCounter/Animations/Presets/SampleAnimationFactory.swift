@@ -8,6 +8,8 @@
 import Foundation
 
 public final class SampleAnimationFactory: CountAnimationFactory {
+    public init() {}
+
     public func createCountAnimation(from: Int, to: Int) -> CountAnimation {
         return CountAnimationAdapter(duration: 2, presenter: SampleAnimationPresenter(from: from, to: to))
     }
