@@ -31,12 +31,18 @@ class ViewController: UIViewController {
         }
     }
 
-    @IBOutlet weak var counter1: RotatingCounter!
+    @IBOutlet weak var counter1: RotatingCounter! {
+        didSet {
+            counter1.font = font
+        }
+    }
     @IBOutlet weak var counter2: RotatingCounter! {
         didSet {
+            counter2.font = font
             counter2.animationFactory = IncrementalAnimationFactory()
         }
     }
 
+    private let font = UIFont.boldSystemFont(ofSize: 35)
 }
 
