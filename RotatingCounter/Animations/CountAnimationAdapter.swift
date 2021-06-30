@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ A utility class to create count animations based on elapsed time
+ */
 public struct CountAnimationAdapter {
     public init(duration: TimeInterval, presenter: CountPresenter, start: Date = Date()) {
         self.duration = duration

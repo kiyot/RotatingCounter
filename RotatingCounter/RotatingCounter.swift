@@ -34,6 +34,11 @@ open class RotatingCounter: UIView {
         setNeedsDisplay()
     }
 
+    /**
+     This object creates animation.
+
+     Set  customized animation factory if you want to change how count animates.
+     */
     public var animationFactory: CountAnimationFactory = SampleAnimationFactory()
 
     @IBInspectable public var textColor: UIColor = .black {
