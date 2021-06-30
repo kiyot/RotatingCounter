@@ -21,6 +21,8 @@
 		BB5EFDFC22DB7C9400778D66 /* CountAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5EFDFB22DB7C9400778D66 /* CountAnimation.swift */; };
 		BB5EFDFE22DB7D8500778D66 /* CountAnimationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5EFDFD22DB7D8500778D66 /* CountAnimationAdapter.swift */; };
 		BB5EFE0022DB7E5700778D66 /* SampleAnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5EFDFF22DB7E5700778D66 /* SampleAnimationFactory.swift */; };
+		BB69A815268C593100C9442B /* IncrementalAnimationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69A814268C593100C9442B /* IncrementalAnimationPresenter.swift */; };
+		BB69A817268C62BA00C9442B /* IncrementalAnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69A816268C62BA00C9442B /* IncrementalAnimationFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		BB5EFDFB22DB7C9400778D66 /* CountAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAnimation.swift; sourceTree = "<group>"; };
 		BB5EFDFD22DB7D8500778D66 /* CountAnimationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAnimationAdapter.swift; sourceTree = "<group>"; };
 		BB5EFDFF22DB7E5700778D66 /* SampleAnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationFactory.swift; sourceTree = "<group>"; };
+		BB69A814268C593100C9442B /* IncrementalAnimationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalAnimationPresenter.swift; sourceTree = "<group>"; };
+		BB69A816268C62BA00C9442B /* IncrementalAnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalAnimationFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 			children = (
 				BB5EFDFF22DB7E5700778D66 /* SampleAnimationFactory.swift */,
 				BB3C410522D6422100ACAAA3 /* SampleAnimationPresenter.swift */,
+				BB69A814268C593100C9442B /* IncrementalAnimationPresenter.swift */,
+				BB69A816268C62BA00C9442B /* IncrementalAnimationFactory.swift */,
 			);
 			path = Presets;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			files = (
 				BB5EFDFC22DB7C9400778D66 /* CountAnimation.swift in Sources */,
 				BB3C410622D6422100ACAAA3 /* SampleAnimationPresenter.swift in Sources */,
+				BB69A817268C62BA00C9442B /* IncrementalAnimationFactory.swift in Sources */,
+				BB69A815268C593100C9442B /* IncrementalAnimationPresenter.swift in Sources */,
 				BB3C410322D63EEB00ACAAA3 /* FixedPresenter.swift in Sources */,
 				BB5EFDFE22DB7D8500778D66 /* CountAnimationAdapter.swift in Sources */,
 				BB3C40E422D6326400ACAAA3 /* RotatingCounter.swift in Sources */,
